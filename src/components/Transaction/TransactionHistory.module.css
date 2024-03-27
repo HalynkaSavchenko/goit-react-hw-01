@@ -1,0 +1,44 @@
+.table {
+    width: 480px;
+    margin: 24px auto;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.table:hover {
+    scale: 1.05;
+}
+
+.th {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid #080808;
+}
+.head {
+    background-color: #262323;
+}
+
+.tbody {
+    font-size: 16px;
+}
+
+.td {
+    padding: 8px;
+    border: 2px solid #090909;
+    text-transform: capitalize;
+}
+
+.tr {
+    text-align: center;
+}
+
+.tr:nth-child(2n) {
+    background-color: #474444a7;
+}
+
+.tr:hover {
+     background-color: rgba(250, 131, 110, 0.738);
+}

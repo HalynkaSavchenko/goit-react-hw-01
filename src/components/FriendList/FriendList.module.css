@@ -1,0 +1,11 @@
+.friendlist {
+    margin: 12px auto;
+    display: flex;
+    width: 480px;
+    gap: 12px;
+}
+.friendItem {
+    flex-basis: calc((100% - 48px) / 5);
+    height: auto;
+}
+    
